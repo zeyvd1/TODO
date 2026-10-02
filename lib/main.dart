@@ -23,18 +23,7 @@ class TodoApp extends StatelessWidget {
         ),
         fontFamily: 'Lexend_Deca',
       ),
-      builder: (context, child) {
-        final mq = MediaQuery.of(context);
-        return MediaQuery(
-          data: mq.copyWith(
-            textScaler: mq.textScaler.clamp(
-              minScaleFactor: 0.9,
-              maxScaleFactor: 1.2,
-            ),
-          ),
-          child: child!,
-        );
-      },
+      
       home: const SplashScreen(),
     );
   }

@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:nti/core/services/token_manager.dart';
 
 
-const String kBaseUrl = 'https://ntitodo-production-cddf.up.railway.app/api/';
+const String kBaseUrl = 'https://ntitodo-production-8a7f.up.railway.app/api/';
 
 class DioClient {
   static final Dio dio = Dio(
